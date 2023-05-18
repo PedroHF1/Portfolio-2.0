@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Press+Start+2P&display=swap');
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box; 
+   text-decoration: none;
+}
+
+body {
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 99.2vw;
+    background-color: #191919;
+    position: fixed ;
+    border-bottom: 1px solid #333333;
+}
+
+.menu-container h2 {
+    padding: 0.7%;
+    color: #a4ddfb;
+    font-weight: 700;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 0px 15px;
+    font-size: 1rem;
+    
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.menu li a:hover {
+    color: #0404e2;
+    transition: 0.3s;
+}
+
+.container-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background-color: #191919;
+}
+
+.conteudo-1 {
+    padding: 0% 10%;
+    color: #fff;
+}
+
+#linkedin {
+    color:#d5e1ff;  
+}
+
+#github {
+    padding-left: 2%;
+    color:#d5e1ff;  
+}
+
+.conteudo-1 h2 {
+    font-size: 2em;
+    padding-bottom: 6%;
+}
+
+span {
+    color: #0404e2;
+}
+
+.conteudo-1 p {
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding-bottom: 5%;
+}
+
+.container-2 {
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.container-2 img {
+    height: 30%;
+
+}
+
+.conteudo-2 {
+    width: 50%;
+    padding: 0% 7%;
+    text-align: justify;
+    color: #fff;
+}
+
+.conteudo-2 h2 {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    padding-bottom: 10%;
+}
+
+.conteudo-2 p {
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 35px;
+}
+
+.container-3 {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #191919;
+    gap: 50px;
+}
+
+.container-3>h2 {
+    font-family: 'Press Start 2P', cursive;
+    color: #fff;
+    padding: 3% 0%;
+}
+
+.container-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #191919;
+    gap: 50px;
+    width: 100%;
+    height: 40%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #d5e1ff;
+    height: 100%;
+    width: 18%;
+    border-radius: 10px;
+}
+
+.card h2 {
+    background-color: #eaf0ff;
+    padding: 0% 24%;
+    font-size: 1em;
+}
+
+button {
+    border: none;
+    padding: 3%;
+    margin-top: 60%;
+    color: #191919;
+    font-weight: bold;
+    font-size: 1rem;
+    box-shadow: 2px 2px 2px #333333;
+    cursor: pointer;
+    background-color: #eaf0ff;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #d5e1ff;
+    border: 1px solid #191919;
+    transition: 0.3s;
+}
+
+.wallpaper {
+    height: 13vh;
+    background-image: url(imgs/wallpaper.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container-4 {
+    background-color: #191919;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    color: #fff;
+
+}
+
+.container-4>h2 {
+    font-family: 'Press Start 2P', cursive;
+    padding-bottom: 5%;
+}
+
+.container-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100vw;
+    gap: 50px;
+    padding: 0% 20%;
+}
+
+.container-logos img {
+    height: 100px;
+}
+
+footer {
+    height: 15vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img {
+    height: 100px;
+}
+
+footer div {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 300;
+    width: 50%;
+}
